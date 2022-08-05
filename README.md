@@ -1,6 +1,8 @@
 # sonarqube-webapi-client
- A Java client for interacting with the SonarQube server via Sonarqube web apis. \
- For SonarQube Version 7.9.5 . 
+
+A Java client for interacting with the SonarQube server via Sonarqube web apis. \
+For SonarQube Version 8.9.3 .
+
 # User Guide
 
 ```java
@@ -32,45 +34,56 @@ public class SonarClientTest {
     }
 }
 ```
+
 # TODO List
-| API | Coding | Testing |
-|:---|---|---|
-|api/authentication|[x]|[ ]|
-|api/ce|[x]|[ ]|
-|api/components|[x]|[-]|
-|api/duplications|[x]|[ ]|
-|api/favorites|[x]|[ ]|
-|api/issues|[x]|[-]|
-|api/languages|[x]|[ ]|
-|api/measures|[x]|[-]|
-|api/metrics|[x]|[ ]|
-|api/notifications|[x]|[ ]|
-|api/permissions|[x]|[ ]|
-|api/plugins|[x]|[ ]|
-|api/project_analyses|[x]|[ ]|
-|api/project_badges|[x]|[ ]|
-|api/project_branches|[x]|[-]|
-|api/project_links|[x]|[ ]|
-|api/project_pull_requests|[x]|[ ]|
-|api/project_tags|[x]|[ ]|
-|api/projects|[x]|[-]|
-|api/qualitygates|[x]|[ ]|
-|api/qualityprofiles|[x]|[ ]|
-|api/rules|[x]|[ ]|
-|api/server|[x]|[ ]|
-|api/settings|[x]|[-]|
-|api/sources|[x]|[ ]|
-|api/system|[x]|[ ]|
-|api/updatecenter|[x]|[ ]|
-|api/user_groups|[x]|[ ]|
-|api/user_tokens|[x]|[ ]|
-|api/users|[x]|[ ]|
-|api/webhooks|[x]|[ ]|
-|api/webservices|[x]|[ ]|
+
+| API                       | Coding | Testing |
+|:--------------------------|--------|---------|
+| api/alm_integrations      | [ ]    | [ ]     |
+| api/alm_settings          | [ ]    | [ ]     |
+| api/authentication        | [ ]    | [ ]     |
+| api/ce                    | [ ]    | [ ]     |
+| api/components            | [ ]    | [ ]     |
+| api/duplications          | [ ]    | [ ]     |
+| api/favorites             | [ ]    | [ ]     |
+| api/issues                | [ ]    | [ ]     |
+| api/languages             | [ ]    | [ ]     |
+| api/measures              | [ ]    | [ ]     |
+| api/metrics               | [ ]    | [ ]     |
+| api/new_code_periods      | [ ]    | [ ]     |
+| api/notifications         | [ ]    | [ ]     |
+| api/permissions           | [ ]    | [ ]     |
+| api/plugins               | [ ]    | [ ]     |
+| api/project_analyses      | [ ]    | [ ]     |
+| api/project_badges        | [ ]    | [ ]     |
+| api/project_branches      | [ ]    | [ ]     |
+| api/project_links         | [ ]    | [ ]     |
+| api/project_pull_requests | [ ]    | [ ]     |
+| api/project_tags          | [ ]    | [ ]     |
+| api/projects              | [ ]    | [ ]     |
+| api/qualitygates          | [ ]    | [ ]     |
+| api/qualityprofiles       | [ ]    | [ ]     |
+| api/rules                 | [ ]    | [ ]     |
+| api/server                | [ ]    | [ ]     |
+| api/settings              | [ ]    | [ ]     |
+| api/sources               | [ ]    | [ ]     |
+| api/system                | [ ]    | [ ]     |
+| api/updatecenter          | [ ]    | [ ]     |
+| api/user_groups           | [ ]    | [ ]     |
+| api/user_tokens           | [ ]    | [ ]     |
+| api/users                 | [ ]    | [ ]     |
+| api/webhooks              | [ ]    | [ ]     |
+| api/webservices           | [ ]    | [ ]     |
 
 # Contribution
+
 ### Library
-Contributing to standard library follows standard workflow. Create feature/bugfix branch, implement, create pull request with me as a reviewer and merge after approval :-)
+
+Contributing to standard library follows standard workflow. Create feature/bugfix branch, implement, create pull request
+with me as a reviewer and merge after approval :-)
 
 ### Testing
-The library is tested manually at this point. If you are interested in implementing any kind of testing, unit testing, integration testing, end-to-end testing, potentially including some virtualization you are welcome to do so. Please follow the same workflow as for any work on library itself.
+
+The library is tested manually at this point. If you are interested in implementing any kind of testing, unit testing,
+integration testing, end-to-end testing, potentially including some virtualization you are welcome to do so. Please
+follow the same workflow as for any work on library itself.
