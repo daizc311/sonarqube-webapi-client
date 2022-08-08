@@ -1,7 +1,7 @@
 # sonarqube-webapi-client
 
 A Java client for interacting with the SonarQube server via Sonarqube web apis. \
-For SonarQube Version 8.9.3 .
+For SonarQube Version 9.5 .
 
 # User Guide
 
@@ -46,6 +46,7 @@ public class SonarClientTest {
 | api/components            | [ ]    | [ ]     |
 | api/duplications          | [ ]    | [ ]     |
 | api/favorites             | [ ]    | [ ]     |
+| api/hotspots              | [ ]    | [ ]     |
 | api/issues                | [ ]    | [ ]     |
 | api/languages             | [ ]    | [ ]     |
 | api/measures              | [ ]    | [ ]     |
@@ -57,6 +58,7 @@ public class SonarClientTest {
 | api/project_analyses      | [ ]    | [ ]     |
 | api/project_badges        | [ ]    | [ ]     |
 | api/project_branches      | [ ]    | [ ]     |
+| api/project_dump          | [ ]    | [ ]     |
 | api/project_links         | [ ]    | [ ]     |
 | api/project_pull_requests | [ ]    | [ ]     |
 | api/project_tags          | [ ]    | [ ]     |
@@ -67,13 +69,16 @@ public class SonarClientTest {
 | api/server                | [ ]    | [ ]     |
 | api/settings              | [ ]    | [ ]     |
 | api/sources               | [ ]    | [ ]     |
-| api/system                | [ ]    | [ ]     |
 | api/updatecenter          | [ ]    | [ ]     |
 | api/user_groups           | [ ]    | [ ]     |
 | api/user_tokens           | [ ]    | [ ]     |
 | api/users                 | [ ]    | [ ]     |
 | api/webhooks              | [ ]    | [ ]     |
 | api/webservices           | [ ]    | [ ]     |
+
+
+| api/system                | [ ]    | [ ]     |
+
 
 # Contribution
 
